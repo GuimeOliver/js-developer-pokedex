@@ -1,0 +1,124 @@
+.info {
+    width: 310px;
+    display: flow-root;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, .2);
+    
+}
+.ilustra {
+    border-radius: 15rem;
+    padding: .5rem;
+    margin: auto;
+    max-width: 244px;
+    max-height: 244px;
+}
+.topo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    margin: .5rem;
+}
+.topo .number {
+    color: #000;
+    opacity: .5;
+    text-align: right;
+    font-size: .625rem;
+}
+.topo .name {
+    color: white;
+    margin-bottom: 0.25;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+.info img{
+    max-width: 75%;
+    margin: 0 auto;
+    min-height: 200px;
+
+}
+.info .detail .types { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.info .detail .types .type{
+    
+    color: white ;
+    padding: .25rem .5rem;
+    margin: .20rem 0.5rem;
+    border-radius: 1.5rem;
+    font-size: .625rem;
+    text-align: center;
+    filter: brightness(0.8);
+}
+
+
+
+
+.status {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 1.5rem;
+
+}
+
+
+
+.atks{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin: .5rem 0.5rem 0.5rem 0;
+    padding: 0;
+}
+.modelStatus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+.model {
+    color: #ffffff7d;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+.pokeStatus{
+    color:#ffffff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: end;
+}
+
+
+
+.descri{
+    display: block;
+    margin: 0;
+    padding: .5rem 0;
+}
+
+.peta{
+    display: flow-root;
+    list-style: none;
+    background-color: #707070;
+    border-radius: .5rem;
+    margin: .5rem 0;
+    padding: 0.2rem;
+}
+.caracte {
+    color: #ffffff7d;
+    margin: .2rem;
+}
+.peta .dif{
+    margin: .2rem;
+    color:#ffffff;
+}
+
+.pokemonsMenu {
+    display: flex !important;
+}

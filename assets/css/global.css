@@ -1,24 +1,27 @@
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto' , sans-serif;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #f6f8fc;
+    background: url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
 }
 
 .content {
     width: 100vw;
-    height: 100vh;
-    padding: 1rem;
-    background-color: #fff;
+    height: 100%;
+    padding: 0 0.5rem;
+    background-color: #b6272b;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, .1);
+    filter: brightness(0.9);
 }
+
 
 @media screen and (min-width: 992px) {
     .content {
         max-width: 992px;
         height: auto;
-        margin: 1rem auto;
+        margin: 0 auto;
         border-radius: 1rem;
     }
 }
